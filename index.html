@@ -1,16 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<link rel="icon" href="imagines de pagina/logo.jpg" type="image/x-icon">
+
+  <!-- Etiquetas para compartir (Open Graph) -->
+<meta property="og:title" content="Mercado Las Estrellas">
+<meta property="og:description" content="Encuentra todo en un solo lugar: comida, ropa, abarrotes, servicios y más. Visítanos en Huaycán.">
+<meta property="og:image" content="https://robertosotelosamaniego.github.io/MERCADO-LAS-ESTRELLAS/imagines%20de%20pagina/carniceria.jpg">
+<meta property="og:url" content="https://robertosotelosamaniego.github.io/MERCADO-LAS-ESTRELLAS/">
+<meta property="og:type" content="website">
+  <!-- SEO básico -->
+<meta name="description" content="Mercado Las Estrellas - Encuentra comida, abarrotes, ropa y más en un solo lugar. Ubícanos fácilmente y conoce nuestros servicios.">
+<meta name="keywords" content="mercado, abarrotes, comida, ropa, Las Estrellas, Huaycán, comercio local, Lima">
+<meta name="author" content="Mercado Las Estrellas">
+<meta name="robots" content="index, follow">
+  <!-- AOS Animate On Scroll CSS -->
+<link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>pagina</title>
+   <title>Mercado Las Estrellas - Inicio</title>
     <link rel="stylesheet" href="style.css">
 
 </head>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
 <body>
     <header class="header">
+
+       <!-- SLIDER DE FONDO -->
+        <div class="slider">
+    <div class="slide active" style="background-image: url('mercado/mercadoprin.png');"></div>
+    <div class="slide" style="background-image: url('mercado/peluqueriacabello.png');"></div>
+    <div class="slide" style="background-image: url('mercado/puetoabarrote.png');"></div>
+  </div>
+   
       <div class="menu container">
+  
            <a href="#" class="logo">Mercado Estrellas</a>
            <input type="checkbox" id="menu"/>
            <label for="menu">
@@ -25,19 +50,20 @@
             </ul>
           </nav>    
       </div>
-
+            <!--TETO Y BOTONES-->
       <div class="header-conten container">
-        <div class="header-txt">
-          <h1><span>Mercado</span> Las Estrellas</h1>
+        <div class="header-txt" data-aos="fade-up">
+>
+          <h1>Mercado <span>las</span><br>Estrellas</h1>
           <p>
             El Mercado de las Estrellas es un espacio comercial diverso y dinámico 
-            que reúne a emprendedores y comerciantes locales en un solo lugar. 
+            que reúne a emprendedores y comerciantes locales en un solo lugar.  
             Ubicado en una zona estratégica y de fácil acceso, este mercado ofrece 
             una amplia variedad de productos que van desde alimentos frescos, 
             abarrotes, ropa, artículos del hogar, hasta productos artesanales y más.
           
           </p>
-          <div class="butons">
+          <div class="butons" data-aos="zoom-in" data-aos-delay="200">
                <a href="https://acortar.link/OR9uFD" target="_blank" class="btn-1">Ubicación</a>
                <a href="ayuda.html" target="_blank" class="btn-1"> Ayuda </a>
                <a href="croquis.html" target="_blank" class="btn-1" > Croquis</a>
@@ -71,41 +97,37 @@
 
   <div class="card-grid">
     <div class="card">
+      <div class="card" data-aos="fade-up" data-aos-delay="200">
       <img src="mercado/puesto de comida.jpg" alt="Comida">
       <h3>Comida</h3>
       <p>Platos tradicionales, menús del día y mucho más.</p>
     </div>
+    </div>
     <div class="card">
+      <div class="card" data-aos="fade-up" data-aos-delay="200">
       <img src="mercado/puesto de ropa.jpg" alt="Ropa">
       <h3>Ropa</h3>
       <p>Moda para todas las edades y estaciones del año.</p>
     </div>
+    </div>
     <div class="card">
+      <div class="card" data-aos="fade-up" data-aos-delay="200">
       <img src="mercado/puesto de jugo.jpg" alt="Juguería">
       <h3>Juguería</h3>
       <p>Jugos naturales y bebidas refrescantes.</p>
     </div>
+    </div>
     <div class="card">
+      <div class="card" data-aos="fade-up" data-aos-delay="200">
       <img src="mercado/Frutas.jpg" alt="Frutas y Verduras">
       <h3>Frutas y Verduras</h3>
       <p>Productos frescos directo del campo.</p>
+    </div>
     </div>
   </div>
 
   <div class="center">
     <a href="galeria.html" class="btn-1">Ver todos los locales</a>
-  </div>
-</section>
-
-
-
-<section class="contac container">
-  <div class="contact-container">
-    <h3>Suscribete a nuestro blog</h3>
-    <form action="https://script.google.com/macros/s/AKfycbxz4RLSd7ppQNRARNhPGLaxiOI_EmnvD0lNntZoWP9EexQzabbUXQSYT-wKvvKU_u2RfA/exec" method="post">
-      <input type="email" name="email" placeholder="Escribe tu correo" required>
-      <input type="submit" class="btn-3" value="Enviar">
-    </form>
   </div>
 </section>
 
@@ -133,9 +155,9 @@
   <div class="footer-container container">
     <div class="footer-info">
       <h3>Mercado Las Estrellas</h3>
-      <p><i class="fa-solid fa-location-dot"></i> Av. Central 123, Ciudad Comercio</p>
-      <p><i class="fa-solid fa-clock"></i> Lunes a Domingo: 8:00 am – 8:00 pm</p>
-      <p><i class="fa-solid fa-phone"></i> (01) 555-1234</p>
+      <p><i class="fa-solid fa-location-dot"></i> mercado de la asociacion hijos de apurimac, 1ra zona</p>
+      <p><i class="fa-solid fa-clock"></i> Lunes a Domingo: 8:00 am – 9:00 pm</p>
+      <p><i class="fa-solid fa-phone"></i> 996 369 309 </p>
     </div>
     <div class="footer-social">
       <h4>Síguenos</h4>
@@ -148,6 +170,25 @@
     <p>© 2025 Mercado Las Estrellas. Todos los derechos reservados.</p>
   </div>
 </footer>
+<!-- AOS Animate On Scroll JS -->
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 1500, // duración en milisegundos
+    once: true      // animar solo una vez
+  });
+</script>
+
+<script>
+  const slides = document.querySelectorAll('.slide');
+  let currentSlide = 0;
+
+  setInterval(() => {
+    slides[currentSlide].classList.remove('active');
+    currentSlide = (currentSlide + 1) % slides.length;
+    slides[currentSlide].classList.add('active');
+  }, 4000); // cambia cada 4 segundos
+</script>
 
 </body>
 </html>
