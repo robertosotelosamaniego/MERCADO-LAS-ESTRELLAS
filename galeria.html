@@ -1,29 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <!-- Etiquetas para compartir (Open Graph) -->
+<meta property="og:title" content="Mercado Las Estrellas">
+<meta property="og:description" content="Encuentra todo en un solo lugar: comida, ropa, abarrotes, servicios y más. Visítanos en Huaycán.">
+<meta property="og:image" content="https://robertosotelosamaniego.github.io/MERCADO-LAS-ESTRELLAS/imagines%20de%20pagina/logo.jpg">
+<meta property="og:url" content="https://robertosotelosamaniego.github.io/MERCADO-LAS-ESTRELLAS/">
+<meta property="og:type" content="website">
+  <!-- SEO básico -->
+<meta name="description" content="Mercado Las Estrellas - Encuentra comida, abarrotes, ropa y más en un solo lugar. Ubícanos fácilmente y conoce nuestros servicios.">
+<meta name="keywords" content="mercado, abarrotes, comida, ropa, Las Estrellas, Huaycán, comercio local, Lima">
+<meta name="author" content="Mercado Las Estrellas">
+<meta name="robots" content="index, follow">
+   <!-- AOS Animate On Scroll CSS -->
+<link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Locales Comerciales - Mercado Las Estrellas</title>
      <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <section class="gallery container">
   <h2 class="section-title">Locales Comerciales</h2>
   <div class="gallery-grid">
-    <div class="gallery-item">
+    <a href="puestoalimentos.html" class="gallery-link">
+    <div class="gallery-item" data-aos="flip-left">
       <img src="mercado/carnicería.jpg" alt="Local Don Pepe">
-      <div class="gallery-caption">Local Don Pepe</div>
+      <div class="gallery-caption">PUESTO DE CARNES</div>
     </div>
-    <div class="gallery-item">
-      <img src="mercado/carnicería.jpg" alt="Pollería El Sabor">
-      <div class="gallery-caption">Pollería El Sabor</div>
+    </a>
+     <div class="gallery-item" data-aos="flip-left">
+      <img src="mercado/Pollería.jpg" alt="Pollería El Sabor">
+      <div class="gallery-caption">POLLERIA</div>
     </div>
-    <div class="gallery-item">
-      <img src="mercado/carnicería.jpg" alt="Boutique Ana">
-      <div class="gallery-caption">Boutique Ana</div>
+     <div class="gallery-item" data-aos="flip-left">
+      <img src="mercado/puesto de comida.jpg" alt="Boutique Ana">
+      <div class="gallery-caption">PUESTO DE COMIDAS</div>
+    </div>
+     <div class="gallery-item" data-aos="flip-left">
+      <img src="mercado/puesto de jugo.jpg" alt="Boutique Ana">
+      <div class="gallery-caption">PUESTO DE JUGOS</div>
+    </div>
+
+  <div class="gallery-item" data-aos="flip-left">
+      <img src="mercado/reparación.jpg" alt="Boutique Ana">
+      <div class="gallery-caption">REPARACIÓN ELECTRÓNICOS</div>
     </div>
     <!-- Puedes agregar más locales como estos -->
   </div>
 </section>
+<!-- AOS Animate On Scroll JS -->
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 1500, // duración en milisegundos
+    once: true      // animar solo una vez
+  });
+</script>
 </body>
 </html>
